@@ -32,12 +32,19 @@ pip install -r requirement.txt
 python manage.py runserver
 ```
 
-### Login to the admin pannel
-URL : http://127.0.0.1:8000/admin/
 
-* user name : Lujain
-* password : 1111
+### If you want to login to the admin page run the next 2 commands
+```
+ python manage.py migrate
+```
+```
+python manage.py createsuperuser
+```
+   
+URL : http://127.0.0.1:8000/admin/
 
 ###  To check the API 
 
 URL : http://127.0.0.1:8000/jobs/api/jobs/
+
+### Python version 3.10.4
