@@ -1,10 +1,10 @@
 # Bayt Assignment
 ## Author : Lujain Al-Jarrah
 
-## this assignment consisit of three part
+## this assignment consist of three part
 
 * **first part** :you can find the solution in TCL_assessment . 
-* **second part** : consist of Rss_parser_frontend and RSS_parser_backend.
+* **second part** : consist of Rss_parser_frontend and RSS_parser_backend.(check below steps)
 * **third part** :you can find the solution in ER_diagram_assessment.
 
 
@@ -45,7 +45,7 @@ URL : http://127.0.0.1:8000/admin/
 ###  To check the API 
 
 URL : http://127.0.0.1:8000/jobs/api/jobs/
- 
+ ### python version 3.10.4
 ## for rss_parser_frontend
 
 make sure you are in **\bayt_assignment\rss_parser_frontend**
