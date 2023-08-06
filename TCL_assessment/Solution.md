@@ -52,16 +52,16 @@ reverse { TCL is a Tool Command Language }
 reverse { Welcome to you }
 => { you to Welcome }
 
+
 ```
 proc reverse_string {input_string} {
     set words [split $input_string]
     set reversed_string ""
 
-    foreach word [lreverse $words] {
-        append reversed_string "$word "
+    for {set i [expr {[llength $words] - 1}]} {$i >= 0} {incr i -1} {
+        set reversed_string "$reversed_string [lindex $words $i]"
     }
 
-    return [string trim $reversed_string]
+    return $reversed_string
 }
-
 ```
