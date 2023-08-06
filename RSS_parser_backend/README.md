@@ -8,24 +8,36 @@ Create a RESTful API to fetch the jobs from the Bayt client RSS feed (https://ww
 
 Follow theses steps :
 
-1. Installing the requirements
+1. Create a virtual environment (optional but recommended).
+ *  ubunto user :
+```
+python -m venv .venv
+source .venv/bin/activate
+```
+* windows terminal user :
+```
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+python -m venv .venv
+.venv\Scripts\activate 
+```
+
+2. Installing the requirements
 ```
 pip install -r requirement.txt
 ```
 
-2.  Running the server
+3.  Running the server
 
 ```
 python manage.py runserver
 ```
 
-## Login to the admin pannel
+### Login to the admin pannel
 URL : http://127.0.0.1:8000/admin/
 
-user name : Lujain
-password : 1111
+* user name : Lujain
+* password : 1111
 
-## To check the API 
+###  To check the API 
 
 URL : http://127.0.0.1:8000/jobs/api/jobs/
-

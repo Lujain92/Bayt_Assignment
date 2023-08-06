@@ -3,9 +3,9 @@
 
 ## this assignment consisit of three part
 
-* **first part** : in TCL_assessment .
+* **first part** :you can find the solution in TCL_assessment . 
 * **second part** : consist of Rss_parser_frontend and RSS_parser_backend.
-* **third part** : in ER_diagram_assessment.
+* **third part** :you can find the solution in ER_diagram_assessment.
 
 
 # For second Part(RSS Parser)

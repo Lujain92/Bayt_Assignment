@@ -17,4 +17,4 @@ You need to write an ER-Diagram that has all the needed tables to support this s
 
 
 
-![ER_diagram](./ER_diagram.png)
+![ER_diagram](./../assess/ER_diagram.png)
