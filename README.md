@@ -36,11 +36,15 @@ pip install -r requirement.txt
 python manage.py runserver
 ```
 
-### Login to the admin pannel
+### If you want to login to the admin pannel
+1. python manage.py migrate
+
+
+2. python manage.py createsuperuser
+
+   
 URL : http://127.0.0.1:8000/admin/
 
-* user name : Lujain
-* password : 1111
 
 ###  To check the API 
 
