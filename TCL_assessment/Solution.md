@@ -40,7 +40,7 @@ proc sortList {L} {
 
 ```
 ### the time complextiy is O(N^2) and the space complexity O(1)
-### this sort called bubble sort, we can use cyclic sort( the time complextiy is O(N) and the space complexity O(1))
+### this sort called bubble sort
 ### Reverse Procedure
 
 Write a TCL procedure that takes a string as an argument, and returns the results as a reversed string.
