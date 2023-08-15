@@ -1,10 +1,10 @@
 # Bayt Assignment
 ## Author : Lujain Al-Jarrah
 
-## this assignment consisit of three part
+## this assignment consist of three part
 
 * **first part** :you can find the solution in TCL_assessment . 
-* **second part** : consist of Rss_parser_frontend and RSS_parser_backend.
+* **second part** : consist of Rss_parser_frontend and RSS_parser_backend.(check below steps)
 * **third part** :you can find the solution in ER_diagram_assessment.
 
 
@@ -36,16 +36,21 @@ pip install -r requirement.txt
 python manage.py runserver
 ```
 
-### Login to the admin pannel
+### If you want to login to the admin page run the next 2 commands
+```
+ python manage.py migrate
+```
+```
+python manage.py createsuperuser
+```
+   
 URL : http://127.0.0.1:8000/admin/
 
-* user name : Lujain
-* password : 1111
 
 ###  To check the API 
 
 URL : http://127.0.0.1:8000/jobs/api/jobs/
- 
+ ### python version 3.10.4
 ## for rss_parser_frontend
 
 make sure you are in **\bayt_assignment\rss_parser_frontend**
