@@ -10,7 +10,7 @@
 
 # For second Part(RSS Parser)
 ## for RSS_parser_backend
-## make an API key for google map before proceed.
+## make an API key for google map before proceed, put it in map.html.
 make sure you are in **\bayt_assignment\RSS_parser_backend**
 1. Create a virtual environment (optional but recommended).
  *  ubunto user :
